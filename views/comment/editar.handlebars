@@ -1,0 +1,14 @@
+<!--Powered by Gui Parreira -->
+
+<form action="/comment/editar" method="POST">
+    <input type="hidden" id="id" name="id" value="{{id}}" />
+    <div class="form-group row">
+        <div class="col-xs-2">
+           <label for="comentario">Comentário:</label>        
+           <input type="text" class="form-control" id="comentario" name="comentario" value="{{comentario}}">
+        </div>
+    </div>   
+    <div class="form-group">
+        <input type="submit" class="btn btn-default" value="Enviar">
+    </div>
+</form>
